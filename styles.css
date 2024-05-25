@@ -18,6 +18,7 @@ body {
     
     margin-top: 50px;
 }
+
 section {
     display: flex;
     justify-content: space-around;
@@ -25,31 +26,47 @@ section {
     height: 650px;
     align-items: center;
 }
+
 h1 {
     text-align: center;
     font-size: 36px;
     font-weight: 600;
     color: #ffffff;
 }
+
 p {
     font-size: 30px;
     font-weight: 600;
     color: #ffffff;
     margin-bottom: 5px;
 }
+
 div {
     text-align: center;
 }
+
+input {
+    margin-right: 25px;
+}
+
+form {
+    word-spacing: 65px;
+}
+
 .budda-img {
     background-color: #ffffff;
     width: 900px;
     height: 150px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-img {
+
+.budda {
     width: 80px;
     height: 80px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .btn{
@@ -60,21 +77,45 @@ img {
     font-size: 22px;
     width: 250px;
 }
+
 .radio-row {
     line-height: 2;
     word-spacing: 200px;
     font-size: 22px;
     font-style: italic;
+    word-spacing: 50px;
 }
+
 .radio-container {
     background-color: #ffffff;
     width: 650px;
     height: 100px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
 .btn-container {
     margin-top: 14px;
 }
+
 .circle {
     width: 45px;
+}
+
+#message-display {
+    font-size: 25px;
+}
+
+#message-affirmation {
+    margin-left: -60px;
+}
+
+#message-mantra {
+    margin-left: -60px;
+}
+
+#user-message {
+    font-size: 25px;
 }
