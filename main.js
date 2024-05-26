@@ -130,7 +130,7 @@ function selfCareMessage(event) {
         repeatMessage.classList.add('no-message');
    }
    else {
-    repeatMessage.classList.remove('no-message');
+        repeatMessage.classList.remove('no-message');
    }
 
    event.preventDefault();
