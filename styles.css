@@ -1,8 +1,114 @@
-/* font-family: 'Quicksand', sans-serif;
-COLORS
-light-yellow - #f7e4bf;
-light-blue - #78a7c6;
-dark-blue - #134d71;
-white - #ffffff;
-black - #000000;
-*/
+
+body {
+    background: linear-gradient(to bottom, #134d71, #78a7c6, #f7e4bf);
+    font-family: 'Quicksand', sans-serif;
+    height: 100vh;
+    
+    margin-top: 50px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 650px;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+div {
+    text-align: center;
+}
+
+input {
+    margin-right: 25px;
+}
+
+form {
+    word-spacing: 65px;
+}
+
+.budda-img {
+    background-color: #ffffff;
+    width: 900px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.budda {
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+}
+
+.btn{
+    background-color: #134d71;
+    color: #ffffff;
+    border-radius: 5px;
+    line-height: 23px;
+    font-size: 22px;
+    width: 250px;
+}
+
+.radio-row {
+    line-height: 2;
+    word-spacing: 200px;
+    font-size: 22px;
+    font-style: italic;
+    word-spacing: 50px;
+}
+
+.radio-container {
+    background-color: #ffffff;
+    width: 650px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-container {
+    margin-top: 14px;
+}
+
+.circle {
+    width: 45px;
+}
+
+#message-display {
+    font-size: 25px;
+}
+
+#message-affirmation {
+    margin-left: -60px;
+}
+
+#message-mantra {
+    margin-left: -60px;
+}
+
+#user-message {
+    font-size: 25px;
+}
+
+.no-message {
+    background-color: #78a7c6;
+    color: #ffffff;
+}
